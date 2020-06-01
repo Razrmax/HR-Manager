@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/hrmanagerdbserver1/databases/HR Manager_db",
+      "type": "mssql.azure",
+      "connectionId": "HR_ManagerContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
